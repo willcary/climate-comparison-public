@@ -10,7 +10,7 @@ function Form(props) {
                 <label htmlFor="location-1">1st Location: </label>
                 <input 
                     type="text" 
-                    placeholder="Enter location" 
+                    placeholder="Enter address" 
                     onChange={handleChange} 
                     name="one" 
                     value={locations.one}
@@ -20,7 +20,7 @@ function Form(props) {
                 <label htmlFor="location-2">2nd Location:</label>
                 <input 
                     type="text" 
-                    placeholder="Enter location" 
+                    placeholder="Enter address" 
                     onChange={handleChange} 
                     name="two" 
                     value={locations.two}
