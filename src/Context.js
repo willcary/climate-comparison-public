@@ -277,7 +277,7 @@ function ContextProvider({ children }) {
   }
 
   const baseGeocodeUrl =
-    'http://www.mapquestapi.com/geocoding/v1/address?key=' +
+    'https://www.mapquestapi.com/geocoding/v1/address?key=' +
     process.env.REACT_APP_GEOCODE_API_KEY +
     '&location='
 
